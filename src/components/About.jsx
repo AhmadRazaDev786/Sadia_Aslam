@@ -22,8 +22,7 @@ const About = () => {
           </h1>
           <p className="mt-2">
             I am a Qaulified Teacher of Biology. I did master in Biological
-            Sciences I have been teaching for 5 years. I have taught in
-            different schools and colleges. I have been teaching online for 2
+            Sciences I have been teaching for 5 years. I have been teaching online for 2
             years.
           </p>
           <p className="mt-3 text-2xl">Why did you hire me?</p>

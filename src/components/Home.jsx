@@ -8,7 +8,7 @@ const Home = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="w-full lg:w-1/2">
           <h1 className="text-6xl mb-4">
-            Find an{" "}
+            Find an online{" "}
             <span
               style={{
                 background:
@@ -22,9 +22,9 @@ const Home = () => {
             to help you to study
           </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum iste
-            id expedita asperiores minima, fuga dolorem similique sapiente
-            nesciunt recusandae!
+            Need help with Biology? Hire a professional biology tutor for online
+            classes to help you with your homework or improve your grades. Book
+            a lesson now!
           </p>
         </div>
         <div className="w-full lg:w-1/2 max-w-[500px]">
