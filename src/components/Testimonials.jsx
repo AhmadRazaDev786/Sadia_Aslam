@@ -12,33 +12,33 @@ import Testi3 from "./images/testimonial4.png";
 const Testemonials = () => {
   return (
     <>
-      <div className="mt-20">
-        <ul className="flex flex-col lg:flex-row m-auto justify-between ml-[150px] md:ml-[250px] lg:w-[80%] xl:w-[100%] lg:ml-0 text-2xl font-bold mb-6 space-y-10 lg:space-y-0 lg:space-x-4">
-          <li>
+      <div className="pt-20 flex justify-center bg-black">
+        <ul className="flex flex-col lg:flex-row justify-between text-2xl font-bold mb-6 space-y-10 lg:space-y-0 lg:space-x-4 w-full max-w-screen-lg">
+          <li className="flex justify-center">
             <img src={ZoomIcon} alt="zoom" className="w-[50px]" />
           </li>
-          <li>
+          <li className="flex justify-center">
             <img src={skypeIcon} alt="skype" className="w-[50px]" />
           </li>
-          <li>
+          <li className="flex justify-center">
             <img src={meetIcon} alt="meet" className="w-[50px]" />
           </li>
-          <li>
+          <li className="flex justify-center">
             <img src={slackIcon} alt="slack" className="w-[50px]" />
           </li>
-          <li>
+          <li className="flex justify-center">
             <img src={teamIcon} alt="team" className="w-[50px]" />
           </li>
         </ul>
       </div>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold w-[30%] md:w-[50%] lg:w-[100%] text-center my-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold w-full text-center my-8">
           <span className="gradient-liner">Testemonials</span>
         </h1>
       
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl w-[30%] md:w-[50%] lg:w-[100%] text-center mb-6">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl w-full text-center mb-6">
         What my client says about me.
       </h1>
-      <div className="flex flex-col lg:flex-row justify-between w-[30%] md:w-[50%] lg:w-[100%]">
+      <div className="flex flex-col lg:flex-row justify-between w-full">
         <div className="p-4 bg-custom-gradient rounded-lg mb-4 lg:mb-0 lg:mr-2">
           <img src={Testi3} alt="moni" className="w-[25px]" />
           <p className="font-thin">
@@ -62,7 +62,7 @@ const Testemonials = () => {
             </div>
           </div>
         </div>
-        <div className="p-4 bg-custom-gradient rounded-lg ml-2">
+        <div className="p-4 bg-custom-gradient rounded-lg lg:ml-2 mb-4 lg:mb-0">
           <img src={Testi3} alt="moni2" className="w-[25px]" />
           <p className="font-thin">
             <small>
@@ -86,7 +86,7 @@ const Testemonials = () => {
             </div>
           </div>
         </div>
-        <div className="p-4 bg-custom-gradient rounded-lg ml-2">
+        <div className="p-4 bg-custom-gradient rounded-lg lg:ml-2">
           <img src={Testi3} alt="moni3" className="w-[25px]" />
           <p className="font-thin">
             <small>
